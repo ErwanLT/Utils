@@ -45,8 +45,7 @@ public class DateUtils {
      * @return the formated date
      */
     public static String formatDate(Date date, String format){
-        SimpleDateFormat formatter = new SimpleDateFormat(format);
-        return formatter.format(date);
+        return formatDateLocale(date, format, Locale.FRANCE);
     }
 
     /**
