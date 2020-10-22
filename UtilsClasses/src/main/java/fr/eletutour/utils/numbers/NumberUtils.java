@@ -23,4 +23,28 @@ public class NumberUtils {
         }
         return fibonacci;
     }
+
+    public static String toBinaryString(int input){
+        return Integer.toBinaryString(input);
+    }
+
+    public static String toHexadecimalString(int input){
+        return Integer.toHexString(input);
+    }
+
+    public static int fromBinaryStringToInteger(String s) {
+        return Integer.parseInt(s, 2);
+    }
+
+    public static int fromHexadecimalStringToInteger(String s) {
+        return Integer.parseInt(s, 16);
+    }
+
+    public static int getSquaredNumber(int input){
+        return input * input;
+    }
+
+    public static double getPI() {
+        return Math.PI;
+    }
 }
