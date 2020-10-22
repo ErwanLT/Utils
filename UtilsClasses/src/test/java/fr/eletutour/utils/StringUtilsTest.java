@@ -1,6 +1,7 @@
 package fr.eletutour.utils;
 
 import fr.eletutour.CommonForTest;
+import fr.eletutour.utils.strings.StringUtils;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

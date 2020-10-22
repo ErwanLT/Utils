@@ -7,3 +7,10 @@
 * replaceAccent
 * reverseString
 * isPalindrome
+
+## DateUtils
+* getToday
+* getDateYear
+* getDateMonth
+* formatDate
+* formatDateLocale

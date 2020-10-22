@@ -1,4 +1,4 @@
-package fr.eletutour.utils;
+package fr.eletutour.utils.strings;
 
 import java.text.Normalizer;
 
