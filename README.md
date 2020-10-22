@@ -14,3 +14,6 @@
 * getDateMonth
 * formatDate
 * formatDateLocale
+
+## NumberUtils
+* getFibonacciToLimit
